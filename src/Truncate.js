@@ -198,7 +198,7 @@ export default class Truncate extends Component {
         } else {
             return [
                 <span key={i}>{line}</span>,
-                <span key={i}>&nbsp</span>
+                <span key={i+'span'}> </span>
             ];
         }
     }
